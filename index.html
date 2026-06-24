@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - SANDEEP KUMAR SALADI</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+
+
+
+    <!-- ================= IEEE POPUP ================= -->
+
+<div id="ieeePopup" class="popup-overlay">
+
+  <div class="popup-box">
+
+      <button id="closePopup">&times;</button>
+
+      <img src="./images/IEEE.png" alt="IEEE Certificate">
+
+      <div class="popup-content">
+
+          <h2>🏆 Latest Achievement</h2>
+
+          <h3>IEEE International Conference Presentation</h3>
+
+          <p>
+              Hybrid Deep Learning Framework for Phishing Attack Detection
+              using Graph Neural Networks and Multi-Modal Attention Fusion
+          </p>
+
+          <div class="popup-buttons">
+
+              <a href="./images/IEEE.png"
+                 target="_blank"
+                 class="popup-btn">
+                 View Certificate
+              </a>
+
+            
+
+          </div>
+
+      </div>
+
+  </div>
+
+</div>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Sandeep</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">certifications</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+           
+          
+            <li class="nav-item">
+    <a class="nav-link" href="#work">Projects</a>
+</li>
+          </ul>
+        </div>
+        <button
+  class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"
+  onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});"
+>
+  Contact
+</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">SANDEEP KUMAR SALADI</span>
+          </h2>
+          <p class="text-muted">
+            I'm A Web Developer having 2 years of experience in expertise of
+            creating website with fully responsive Also with backend part too.
+          </p>
+          <h3 class="typing-text">
+    I Am Into <span id="typing"></span>
+</h3>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Connect Me
+          </button>
+
+          <!-- Social Media Icons --> <div class="social-icons mt-4"> <!-- LinkedIn --> <a href="https://www.linkedin.com/in/saladisandeepkumar/" target="_blank" class="social-icon linkedin"> <i class="bi bi-linkedin"></i> </a> <!-- GitHub --> <a href="https://github.com/saladisandeepkumar" target="_blank" class="social-icon github"> <i class="bi bi-github"></i> </a> <!-- Instagram --> <a href="https://www.instagram.com/_sandeep__1916/" target="_blank" class="social-icon instagram"> <i class="bi bi-instagram"></i> </a> <!-- Facebook --> <a href="https://www.facebook.com/sandeep.saladi.77/" target="_blank" class="social-icon facebook"> <i class="bi bi-facebook"></i> </a> </div>
+
+
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="./images/banner-01.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    
+    <!-- home section ends here -->
+
+   
+<!-- ===================== Expertise Section ===================== -->
+<section class="expertise mt-5" id="service">
+  <div class="heading text-center">
+    <small>My Expertise</small>
+    <h3>
+      Building Modern <br>
+      Web Experiences
+    </h3>
+  </div>
+
+  <div class="row justify-content-evenly mt-5">
+
+    <!-- Web Design -->
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="images/service-icon1.png" class="w-25 img-fluid" alt="">
+        </div>
+
+        <div class="content mt-3">
+          <h4>Web Design</h4>
+
+          <p class="text-muted">
+            Designing responsive, attractive, and user-friendly websites.
+          </p>
+
+          <a href="#" class="link"
+             data-bs-toggle="modal"
+             data-bs-target="#designModal">
+             Read More
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="images/service-icon2.png" class="w-25 img-fluid" alt="">
+        </div>
+
+        <div class="content mt-3">
+          <h4>Web Development</h4>
+
+          <p class="text-muted">
+            Building scalable full-stack web applications using MERN Stack.
+          </p>
+
+          <a href="#" class="link"
+             data-bs-toggle="modal"
+             data-bs-target="#developmentModal">
+             Read More
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Debugging -->
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="images/service-icon3.png" class="w-25 img-fluid" alt="">
+        </div>
+
+        <div class="content mt-3">
+          <h4>Debugging</h4>
+
+          <p class="text-muted">
+            Identifying, fixing, and optimizing software applications.
+          </p>
+
+          <a href="#" class="link"
+             data-bs-toggle="modal"
+             data-bs-target="#debugModal">
+             Read More
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== Web Design Modal ===================== -->
+<div class="modal fade" id="designModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">🎨 Web Design</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p>
+          I create clean, modern, and responsive websites that deliver an
+          engaging user experience across all devices.
+        </p>
+
+        <ul>
+          <li>✔ Responsive UI Design</li>
+          <li>✔ HTML5 & CSS3</li>
+          <li>✔ Bootstrap 5</li>
+          <li>✔ User-Centered Design</li>
+          <li>✔ Mobile Friendly Layouts</li>
+          <li>✔ Modern Interface Design</li>
+        </ul>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-warning" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===================== Web Development Modal ===================== -->
+<div class="modal fade" id="developmentModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">💻 Web Development</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p>
+          I develop secure, scalable, and high-performance web applications
+          using modern technologies and industry best practices.
+        </p>
+
+        <ul>
+          <li>✔ React.js</li>
+          <li>✔ Node.js</li>
+          <li>✔ Express.js</li>
+          <li>✔ MongoDB</li>
+          <li>✔ MySQL</li>
+          <li>✔ REST API Development</li>
+          <li>✔ MERN Stack Applications</li>
+        </ul>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-warning" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===================== Debugging Modal ===================== -->
+<div class="modal fade" id="debugModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">🐞 Debugging & Optimization</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p>
+          I analyze software issues, identify bugs, and optimize applications
+          to improve performance, reliability, and maintainability.
+        </p>
+
+        <ul>
+          <li>✔ Bug Detection & Fixing</li>
+          <li>✔ Code Optimization</li>
+          <li>✔ Performance Improvement</li>
+          <li>✔ Frontend Debugging</li>
+          <li>✔ Backend Troubleshooting</li>
+          <li>✔ Database Error Resolution</li>
+        </ul>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-warning" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./images/compressed_Sandeep.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Sandeep</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>
+I recently graduated with a Bachelor's degree in Information Technology. 
+I am a passionate Full Stack Developer skilled in the MERN Stack, dedicated to building responsive web applications, solving problems, and continuously learning new technologies. 
+I am eager to begin my career and contribute to innovative software projects.
+</p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> sandeepsaladi19@gmail.com</p>
+              <p><span> place : </span> Kakinada, India - 533468</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1tolwqhv0MGnkbJIVwuP3H4nM_q_5faw_/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+          <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>HTML5</span>
+              </div>
+            </div> 
+            <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+          <span>CSS3</span>
+        </div>
+      </div>
+       <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+          <span>JavaScript</span>
+        </div>
+      </div>
+       <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/plasticine/48/000000/react.png"/>
+          <span>ReactJS</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+          <span>Node.js</span>
+        </div>
+      </div>
+      <div class="bar">
+  <div class="info">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" style="width: 48px; filter: invert(1);" />
+    <span>Express.js</span>
+  </div>
+</div>
+
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/mongodb.png"/>
+          <span>MongoDB</span>
+        </div>
+      </div>
+      <div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/sql.png" />
+    <span>SQL</span>
+  </div>
+</div>
+            <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+          <span>Bootstrap</span>
+        </div>
+      </div>
+
+       <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
+          <span>Python</span>
+        </div>
+      </div>
+      <div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/c-programming.png" />
+    <span>C</span>
+  </div>
+</div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+          <span>C++</span>
+        </div>
+      </div>
+       <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" />
+          <span>Java</span>
+        </div>
+      </div>
+        <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/fluency/48/000000/github.png" />
+          <span>GitHub</span>
+        </div>
+      </div>
+      
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/git.png" />
+    <span>Git</span>
+  </div>
+</div>
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" />
+    <span>VS Code</span>
+  </div>
+</div>
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/fluency/48/000000/api-settings.png" />
+    <span>REST API</span>
+  </div>
+</div>
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/fluency/48/000000/bug.png"/>
+    <span>Debugging</span>
+  </div>
+</div>
+
+       
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./images/college (1).jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Engineering in Information Technology</h3>
+        <p>Aditya Engineering College | Surampalem</p>
+        <h4>2022-2026 | Completed</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./images/College1.png" alt="">
+      </div>
+      <div class="content">
+      <h3>Intermediate | MPC</h3>
+      <p>Governmet Junior College | Velangi</p>
+      <h4>2020-2022 | Completed</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./images/school.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>Secondary School Of Education | 10</h3>
+      <p>M Z P High School | Velangi</p>
+      <h4>2017-2020 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- ================= CERTIFICATES SECTION ================= -->
+
+<section class="certifications" id="certifications">
+
+    <h2 class="heading">
+        <i class="fas fa-certificate"></i>
+        Certifications
+    </h2>
+
+    <p class="subtitle">
+        Industry Certifications, Programming Credentials & Professional Achievements
+    </p>
+
+    <div class="certificate-grid">
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card">
+
+            <img src="./images/C.png" alt="Programming Essentials in C">
+
+            <div class="certificate-content">
+
+                <h3>Programming Essentials in C (CLA)</h3>
+
+                <span>Cisco Networking Academy</span>
+
+                <p>
+                    Successfully completed the CLA Programming Essentials in C
+                    course covering programming fundamentals, data structures,
+                    functions and problem solving.
+                </p>
+
+                <a href="./images/C.png" target="_blank" class="btn">
+                    <i class="fas fa-eye"></i> View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Certificate 2 -->
+
+        <div class="certificate-card">
+
+            <img src="./images/Python.png" alt="Programming Essentials in Python">
+
+            <div class="certificate-content">
+
+                <h3>Programming Essentials in Python (PCAP)</h3>
+
+                <span>Cisco Networking Academy</span>
+
+                <p>
+                    Successfully completed the PCAP Programming Essentials in Python
+                    certification covering OOP, modules, exceptions and algorithms.
+                </p>
+
+                <a href="./images/Python.png" target="_blank" class="btn">
+                    <i class="fas fa-eye"></i> View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Certificate 3 -->
+
+        <div class="certificate-card">
+
+            <img src="./images/python certificate.jpg" alt="Python Specialist">
+
+            <div class="certificate-content">
+
+                <h3>Python Specialist</h3>
+
+                <span>Certiport Pearson</span>
+
+                <p>
+                    Information Technology Specialist certification demonstrating
+                    Python programming and problem-solving skills.
+                </p>
+                <br>
+
+                <a href="./images/python certificate.jpg" target="_blank" class="btn">
+                    <i class="fas fa-eye"></i> View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Certificate 4 -->
+
+        <div class="certificate-card">
+
+            <img src="./images/Html and Css.jpg" alt="HTML & CSS">
+
+            <div class="certificate-content">
+
+                <h3>HTML & CSS Specialist</h3>
+
+                <span>Certiport Pearson</span>
+
+                <p>
+                    Information Technology Specialist certification in HTML & CSS
+                    demonstrating modern responsive web development skills.
+                </p>
+                <br>
+              
+
+                <a href="./images/Html and Css.jpg" target="_blank" class="btn">
+                    <i class="fas fa-eye"></i> View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Certificate 5 -->
+
+       
+
+        <!-- Certificate 6 -->
+
+       
+
+    </div>
+
+    <!-- View More Button -->
+
+    <div class="view-more-certificates">
+
+        <a href="https://drive.google.com/drive/folders/1kgxoHtSDTPKYu69mSC2jnSsMgvB95i0k?usp=sharing"
+           target="_blank"
+           class="view-btn">
+
+            <i class="fas fa-folder-open"></i>
+
+            View More Certificates
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= END CERTIFICATES ================= -->
+
+<!-- Experience Section Starts -->
+
+<section class="experience" id="experience">
+
+    <h2 class="heading">
+        <i class="fas fa-briefcase"></i> Experience
+    </h2>
+
+    <div class="timeline">
+
+        <!-- Experience 1 -->
+        <div class="container">
+            <div class="content">
+                <div class="tag">
+                    <h2>Self Employed</h2>
+                </div>
+                <div class="desc">
+                    <h3>Full Stack Developer</h3>
+                    <p>2024 - Present</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="container">
+            <div class="content">
+                <div class="tag">
+                    <h2>SkillDzire</h2>
+                </div>
+                <div class="desc">
+                    <h3>Artificial Intelligence Intern</h3>
+                    <p>May 2023 - Jul 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="container">
+            <div class="content">
+                <div class="tag">
+                    <h2>Code Carnival</h2>
+                </div>
+                <div class="desc">
+                    <h3>Competitive Programming Winner</h3>
+                    <p>2023</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="container">
+            <div class="content">
+                <div class="tag">
+                    <h2>Academic Projects</h2>
+                </div>
+                <div class="desc">
+                    <h3>MERN Stack Developer</h3>
+                    <p>2022 - 2025</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="morebtn">
+        <a href="#projects" class="btn">
+            <span>View More</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+
+</section>
+
+<!-- Experience Section Ends -->
+
+<!-- ==================== PROJECTS SECTION ==================== -->
+<!-- ==================== PROJECTS SECTION ==================== -->
+
+<section class="work" id="work">
+
+    <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> My <span>Projects</span>
+    </h2>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <img src="./images/Screenshot (170).png" alt="AI Timetable Generator">
+
+            <div class="project-content">
+
+                <h3>AI Timetable Generator</h3>
+
+                <p>
+                    Smart timetable generation system using React,
+                    Node.js and AI-based scheduling algorithms.
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="https://collegetimetablegenerator-1.onrender.com"
+                       target="_blank"
+                       class="btn">
+
+                        <i class="fas fa-eye"></i>
+                        Live
+
+                    </a>
+
+                    <a href="https://github.com/saladisandeepkumar?tab=repositories"
+                       target="_blank"
+                       class="btn">
+
+                        <i class="fab fa-github"></i>
+                        Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <img src="./images/1.png" alt="Red Chilli Price Prediction">
+
+            <div class="project-content">
+
+                <h3>Karnataka Red Chilli Price Prediction</h3>
+
+                <p>
+                    AI-powered web application that predicts Karnataka Red Chilli
+                    prices using Random Forest, XGBoost, LSTM and Linear Regression.
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="https://drive.google.com/file/d/1TuhupfRg9XoCY-EtY6SbQbGGjw47rjxs/view?usp=sharing"
+                       target="_blank"
+                       class="btn">
+
+                        <i class="fas fa-eye"></i>
+                        Live
+
+                    </a>
+
+                    <a href="https://drive.google.com/drive/folders/1-gKOrueDUC5n3JjjiAtaANZvjwirrarc?usp=sharing"
+                       target="_blank"
+                       class="btn">
+
+                        <i class="fab fa-github"></i>
+                        Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+
+    <div class="viewall">
+
+
+        <a href="https://github.com/saladisandeepkumar?tab=repositories"
+           target="_blank"
+           class="btn">
+
+            <i class="fab fa-github"></i>
+
+            Visit More
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ===================================================
+                PROJECT POPUP
+=================================================== -->
+
+
+
+<!-- ==================== END PROJECTS ==================== -->
+
+  <style>
+      #projects {
+          padding: 20px;
+          background-color: #f8f8f8;
+          text-align: center;
+      }
+      .project {
+          border: 1px solid #ddd;
+          padding: 15px;
+          margin: 15px 0;
+          background: #fff;
+          border-radius: 5px;
+          display: inline-block;
+          width: 300px;
+          text-align: center;
+      }
+      .project img {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+      }
+      .read-more {
+          display: inline-block;
+          margin-top: 10px;
+          padding: 5px 10px;
+          background: #007bff;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 3px;
+      }
+      .read-more:hover {
+          background: #0056b3;
+      }
+
+      ```css
+/* Social Icons */
+
+.social-icons{
+    margin-top:25px;
+}
+
+.social-icon{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    margin-right:15px;
+    border-radius:50%;
+    text-decoration:none;
+    color:#fff;
+    font-size:22px;
+    transition:0.3s ease;
+}
+
+.linkedin{
+    background:#0077B5;
+}
+
+.github{
+    background:#24292e;
+}
+
+.instagram{
+    background:#E4405F;
+}
+
+.facebook{
+    background:#1877F2;
+}
+
+.social-icon:hover{
+    transform:translateY(-6px) scale(1.1);
+    box-shadow:0 10px 20px rgba(0,0,0,0.25);
+    color:#fff;
+}
+
+  </style>
+  
+    
+    <!-- blog section ends here -->
+
+
+<!-- contact section starts -->
+<section class="contact py-5" id="contact">
+  <div class="heading text-center">
+    <small>Get in Touch</small>
+    <h3>Any Questions? Feel Free to Contact</h3>
+  </div>
+
+  <div class="row justify-content-evenly mt-5">
+
+    <!-- Contact Details -->
+    <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>1-119 Velangi, India</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-telephone-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>+91 8885604443</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-send-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>sandeepsaladi19@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-globe-americas"></i>
+        </div>
+        <div class="col-11">
+          <p></p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+
+      <form action="https://formsubmit.co/sandeepsaladi19@gmail.com" method="POST">
+
+        <!-- Hidden Settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="contact-form">
+
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              name="Name"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              name="Email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              name="Mobile"
+              placeholder="Mobile No."
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              name="Message"
+              placeholder="Message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Submit
+          </button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#skills">Skills</a>
+        <div class="vr"></div>
+        <a href="#education">Education</a>
+        <div class="vr"></div>
+        <a href="#certifications">Certifications</a>
+        <div class="vr"></div>
+        <a href="#experience">Experience</a>
+        <div class="vr"></div>
+        
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2026 Portfolio | All Rights Reserved.</p>
+      <div class="social-icons mt-4"> <!-- LinkedIn --> <a href="https://www.linkedin.com/in/saladisandeepkumar/" target="_blank" class="social-icon linkedin"> <i class="bi bi-linkedin"></i> </a> <!-- GitHub --> <a href="https://github.com/saladisandeepkumar" target="_blank" class="social-icon github"> <i class="bi bi-github"></i> </a> <!-- Instagram --> <a href="https://www.instagram.com/_sandeep__1916/" target="_blank" class="social-icon instagram"> <i class="bi bi-instagram"></i> </a> <!-- Facebook --> <a href="https://www.facebook.com/sandeep.saladi.77/" target="_blank" class="social-icon facebook"> <i class="bi bi-facebook"></i> </a> </div>
+    
+    <br
+    <p>
+        Designed by <span>Sandeep</span>
+    </p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
